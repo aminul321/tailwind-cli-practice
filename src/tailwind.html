@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-400">
+    <!-- <div class="underline text-7xl text-amber-500 font-bold flex justify-center m-4 p-4">
+        Hello World
+    </div> -->
+
+    <!-- !Top Nav -->
+    <div class="h-24 w-[100%] bg-white flex justify-between items-center p-9">
+        <div class="p-9 flex">
+            <img class="h-12 w-40 cursor-pointer" src="img/Companylogo.svg" alt="Companylogo" />
+        </div>
+        <div class="flex justify-center items-center">
+            <div class="flex justify-center items-center m-9">
+                <p class="m-1">Online Cars</p>
+                <p class="bg-gray-400 p-2 text-sm rounded-md text-center m-1">15</p>
+            </div>
+            <div class="flex justify-center items-center m-9">
+                <p class="m-1">Offline Cars</p>
+                <p class="bg-gray-400 p-2 text-sm rounded-md text-center m-1 text-">
+                    15
+                </p>
+            </div>
+            <div class="m-9 cursor-pointer">
+                <img src="img/Group 19465.svg " alt="notification-icon " />
+            </div>
+            <div class="h-9 w-8 m-9 cursor-pointer">
+                <img src="img/Frame.svg " alt="notification-icon " />
+            </div>
+        </div>
+    </div>
+
+    <!-- !Serch box with icons -->
+    <!-- <div class="bg-slate-400 h-14 w-72 m-6 rounded-lg flex items-center">
+        <div class="bg-slate-200 h-10 w-56 flex rounded-md m-2 items-center text-gray-400 text-xl p-2 relative">
+            Search
+        </div>
+        <!-- <img class="h-6" src="img/search.svg" alt="Search" /> -->
+    <!-- <i class="fa-solid fa-magnifying-glass text-slate-400 absolute ml-48"></i>
+    <i class="fa-regular fa-bars-filter absolute text-red-700"></i>
+    </div> -->
+
+    <!-- !Header section -->
+    <div class="container mx-auto mt-5">
+        <div class="bg-white flex justify-between items-center mx-10 px-6 py-3 rounded-xl">
+            <div class="text-3xl font-bold">Shifts</div>
+            <div class="flex justify-between">
+                <div class="border-2 cursor-pointer border-orange-400 flex justify-between text-lg font-bold text-orange-400 px-4 py-4 rounded-xl m-2">
+                    Create New Shift
+                </div>
+                <div class="border-2 cursor-pointer border-orange-400 flex justify-between text-lg font-bold text-orange-400 px-4 py-4 rounded-xl m-2">
+                    History
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-between min-h-[600px]">
+            <!-- !Left side box -->
+            <div class="bg-white w-[30%] flex mx-10 my-5 justify-between rounded-xl">
+                <!-- !Search box -->
+                <div class="bg-gray-300 m-5 w-[80%] h-16 rounded-lg flex justify-between items-center p-3">
+                    <div>Search</div>
+                    <div><img class="h-6" src="img/search.svg" alt="Search" /></div>
+                </div>
+
+                <img class="h-7 items-center" src="img/Filter.svg" alt="Filter" />
+
+                <!-- !List Box -->
+                <!-- <div class="list-outside">
+                    <div class="bg-red-200 p-12 h-20 m-2 w-[25%]"></div>
+                    <div class="bg-red-200 p-12 h-20 m-2 w-[25%"></div>
+                </div> -->
+            </div>
+
+            <!-- !Right side box -->
+            <div class="bg-white py-5 px-5 mr-10 my-5 w-[70%] rounded-xl">
+                <div class="flex justify-between items-center">
+                    <div class="text-3xl font-bold">Shift Details</div>
+                    <div class="bg-orange-400 cursor-pointer px-5 py-5 rounded-xl text-lg font-bold">
+                        Go to Route Planner
+                    </div>
+                </div>
+                <!-- !Grey Box -->
+                <div class="bg-gray-300 h-[68%] my-5 rounded-xl p-3">
+                    <div class="flex justify-between">
+                        <!-- !circle date -->
+                        <div class="flex items-center">
+                            <div class="bg-slate-100 h-12 w-12 text-center rounded-full p-2">
+                                <div class="text-lg font-medium leading-none">29</div>
+                                <div class="text-xs font-normal leading-none">Dec</div>
+                            </div>
+
+                            <div class="mx-3 bg-red">
+                                <div class="text-sm font-medium">Monday</div>
+                                <div class="text-sm font-medium">Cargo</div>
+                            </div>
+                        </div>
+                        <!-- !Top right time & License -->
+                        <div>
+                            <div class="text-sm font-medium">11:30 - 21:30</div>
+                            <div class="text-sm font-medium">AA 00 000</div>
+                        </div>
+                    </div>
+                    <!-- !3 small cards -->
+                    <div class="flex justify-between my-3 mx-3">
+                        <div class="bg-slate-400 w-[25%] text-center py-3 rounded-xl mt-3">
+                            <div class="text-sm font-medium">Request</div>
+                            <div class="text-lg font-bold">0/7</div>
+                        </div>
+                        <div class="bg-slate-400 w-[25%] text-center py-3 rounded-xl mt-3">
+                            <div class="text-sm font-medium">Request</div>
+                            <div class="text-lg font-bold">0/7</div>
+                        </div>
+                        <div class="bg-slate-400 w-[25%] text-center py-3 rounded-xl mt-3">
+                            <div class="text-sm font-medium">Request</div>
+                            <div class="text-lg font-bold">0/7</div>
+                        </div>
+                    </div>
+                    <!-- !Comment -->
+                    <div>
+                        <div class="text-sm font-bold m-1">Comment</div>
+                        <div class="text-xs font-medium m-1">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo est fugiat eos quaerat voluptatibus odio quam et doloremque nostrum nihil eum perspiciatis consequuntur consectetur nesciunt, voluptatem vero a, molestias architecto.
+                        </div>
+                    </div>
+                    <!-- !Inside button -->
+                    <div class="flex justify-center">
+                        <div class="bg-white cursor-pointer text-lg font-medium w-[35%] px-2 py-4 text-center rounded-xl my-3">
+                            Start in 5 days
+                        </div>
+                    </div>
+                </div>
+                <!-- !Outside buttons -->
+                <div class="flex justify-between">
+                    <div class="bg-red-400 cursor-pointer px-8 py-4 rounded-xl text-center text-lg font-bold">
+                        Delete
+                    </div>
+                    <div class="bg-orange-400 cursor-pointer px-8 py-4 rounded-xl text-center text-lg font-bold">
+                        Edit
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
