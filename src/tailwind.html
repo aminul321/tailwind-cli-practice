@@ -51,12 +51,11 @@
         <div class="bg-white flex justify-between items-center mx-10 px-6 py-3 rounded-xl">
             <div class="text-3xl font-bold">Shifts</div>
             <div class="flex justify-between">
-                <div class="border-2 cursor-pointer border-[#F89818] flex justify-between text-lg font-bold text-orange-400 px-4 py-4 rounded-xl m-2">
-                    Create New Shift
-                </div>
-                <div class="border-2 cursor-pointer border-[#F89818] flex justify-between text-lg font-bold text-orange-400 px-4 py-4 rounded-xl m-2">
+                <button class="border-2 cursor-pointer border-[#F89818] flex justify-between text-base font-bold text-orange-400 px-4 py-3 rounded-xl m-2"> Create New Shift
+                </button>
+                <button class="border-2 cursor-pointer border-[#F89818] flex justify-between text-base font-bold text-orange-400 px-4 py-3 rounded-xl m-2">
                     History
-                </div>
+                </button>
             </div>
         </div>
 
@@ -67,10 +66,10 @@
                 <!-- Search box -->
 
                 <div class="flex justify-between">
-                    <div class="bg-[#f7f7f7] ml-5 my-5 w-[80%] h-16 rounded-lg flex justify-between items-center p-3 cursor-text">
-                        <label for="Search">
-                <input type="text" class="w-[120%]" />
-              </label>
+                    <div class="bg-[#f7f7f7] ml-5 my-5 w-[80%] h-16 rounded-lg flex justify-between items-center p-3 cursor-pointer">
+
+                        <input type="text" class=" bg-[#f7f7f7] w-[120%] outline-none" placeholder="Search" />
+
                         <div><img class="h-6" src="img/search.svg" alt="Search" /></div>
                     </div>
                     <div class="bg-[#f7f7f7] h-2 flex justify-center items-center m-5 px-5 py-8 rounded-xl cursor-pointer">
@@ -82,19 +81,19 @@
                 <div class="max-h-[450px] scroll-smooth overflow-y-scroll">
                     <div class="list">
                         <div class="bg-[#DCDCDC] p-4 h-24 m-4 rounded-xl flex justify-between items-center cursor-pointer">
-                            <div>
-                                <div class="flex items-center">
-                                    <div class="bg-white h-12 w-12 text-center rounded-full p-2">
-                                        <div class="text-lg font-medium leading-none">29</div>
-                                        <div class="text-xs font-normal leading-none">Dec</div>
-                                    </div>
+                            <!-- <div> -->
+                            <div class="flex items-center">
+                                <div class="bg-white h-12 w-12 text-center rounded-full p-2">
+                                    <div class="text-lg font-medium leading-none">29</div>
+                                    <div class="text-xs font-normal leading-none">Dec</div>
+                                </div>
 
-                                    <div class="mx-3 bg-red">
-                                        <div class="text-sm font-medium">David Morgan</div>
-                                        <div class="text-sm font-medium">AA 00 000</div>
-                                    </div>
+                                <div class="mx-3 bg-red">
+                                    <div class="text-sm font-medium">David Morgan</div>
+                                    <div class="text-sm font-medium">AA 00 000</div>
                                 </div>
                             </div>
+                            <!-- </div> -->
                             <div class="flex justify-between items-center">
                                 <div>
                                     <div class="text-sm font-medium mr-8">15.04-2021</div>
@@ -208,7 +207,7 @@
             <div class="bg-white py-5 px-5 mr-10 my-5 w-[70%] rounded-xl">
                 <div class="flex justify-between items-center">
                     <div class="text-3xl font-bold">Shift Details</div>
-                    <div class="bg-[#F89818] cursor-pointer px-5 py-5 rounded-xl text-lg font-bold text-white">
+                    <div class="bg-[#F89818] cursor-pointer px-4 py-3 rounded-xl text-lg font-medium text-white">
                         Go to Route Planner
                     </div>
                 </div>
@@ -251,32 +250,31 @@
                     <!-- Comment -->
                     <div>
                         <div class="text-sm font-bold m-1">Comment</div>
-                        <div class="text-xs font-medium m-1">
+                        <div class="text-xs font-normal m-1">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo est fugiat eos quaerat voluptatibus odio quam et doloremque nostrum nihil eum perspiciatis consequuntur consectetur nesciunt, voluptatem vero a, molestias architecto.
                         </div>
                     </div>
                     <!-- Inside button -->
                     <div class="flex justify-center">
-                        <div class="bg-[#BDBDBD] cursor-pointer text-lg font-medium w-[25%] px-2 py-4 text-center rounded-xl my-3 text-white">
+                        <button class="bg-[#BDBDBD] cursor-pointer text-lg font-medium w-[25%] px-2 py-3 text-center rounded-xl my-3 text-white">
                             Start in 5 days
-                        </div>
+                        </button>
                     </div>
                 </div>
                 <!-- Outside buttons -->
                 <div class="flex justify-between">
-                    <div class="bg-[#FF6368] cursor-pointer px-8 py-4 rounded-xl text-center text-lg font-bold text-white">
-                        Delete
-                    </div>
-                    <div class="bg-[#F89818] cursor-pointer px-8 py-4 rounded-xl text-center text-lg font-bold text-white">
+                    <button class="bg-[#FF6368] cursor-pointer px-4 py-3 w-40 rounded-xl text-center text-base font-medium text-white transition duration-700 ease-in-out"> Delete</button>
+
+                    <button class="bg-[#F89818] cursor-pointer px-4 py-3 w-40 rounded-xl text-center text-base font-medium text-white">
                         Edit
-                    </div>
+                    </butt>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Nav Bars -->
-    <div class="bg-white h-28 w-full flex justify-between items-center p-5 ">
+    <iv class="bg-white h-28 w-full flex justify-between items-center p-5">
         <div class="w-[20%] flex items-center cursor-pointer">
             <div class="h-9 w-9">
                 <img src="img/641097_logo_512x512.png" alt="" />
@@ -284,23 +282,32 @@
             <div class="text-center font-bold text-3xl m-4">TOOLS</div>
         </div>
         <div class="flex justify-between cursor-pointer">
-            <div class="m-6 text-base font-bold text-gray-800">How it works</div>
-            <div class="m-6 text-base font-bold text-gray-800">Pricing</div>
+            <div class="m-6 text-base font-bold text-gray-800 hover:text-[#F89818]">
+                How it works
+            </div>
+            <div class="m-6 text-base font-bold text-gray-800 hover:text-[#F89818]">
+                Pricing
+            </div>
             <div class="flex justify-between items-center">
-                <div class="ml-6 mr-3 my-6 text-base font-bold text-gray-800">
+                <div class="ml-6 mr-3 my-6 text-base font-bold text-gray-800 hover:text-[#F89818]">
                     Solutions
                 </div>
-                <i class="fa-solid fa-angle-down text-slate-400"></i>
+                <i class="fa-solid fa-angle-down text-slate-400 hover:text-[#F89818]"></i>
             </div>
-            <div class="m-6 text-base font-bold text-gray-800">Features</div>
+            <div class="m-6 text-base font-bold text-gray-800 hover:text-[#F89818]">
+                Features
+            </div>
         </div>
         <div class="flex justify-between items-center cursor-pointer">
-            <div class="m-6 text-base font-bold text-gray-800">Login</div>
-            <div class="m-6 text-base font-bold text-white px-7 py-5 bg-black">
-                Sign Up
-            </div>
-        </div>
-    </div>
+             <button class="m-6 text-base font-bold text-gray-800">Login</button>
+                    <button class="m-6 text-base font-bold text-white px-7 py-5 bg-black">
+                         Sign Up
+                    </button>
+
+                </div>
+
+
+                <!-- Nav Bars -->
 </body>
 
 </html>

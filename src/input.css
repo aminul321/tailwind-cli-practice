@@ -14,3 +14,8 @@ h2 {
 p {
     font-family: 'Montserrat', sans-serif;
 }
+
+
+/* .custom_btn {
+    @apply border-2 cursor-pointer border-[#F89818] flex justify-between text-base font-bold text-orange-400 px-4 py-3 rounded-xl m-2
+} */
